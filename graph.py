@@ -2,7 +2,7 @@
 
 from matplotlib import pyplot as plt
 
-with open('essay_long.txt', 'r') as f:
+with open('essay_short.txt', 'r') as f:
     text = f.read()
 
 #  Break the essay into non-empty paragraphs
